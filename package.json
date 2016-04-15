@@ -1,0 +1,42 @@
+{
+  "name": "fe-component",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "compile-js": "",
+    "compile-templates": "",
+    "compile": "",
+    "watch": "",
+    "test-js": "tape tests/*",
+    "test-css": "",
+    "test-templates": "",
+    "test": "npm run test-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krambuhl/fe-component.git"
+  },
+  "keywords": [
+    "iron-component",
+    "eyeglass-module"
+  ],
+  "author": "Evan Krambuhl <thekrambuhl@gmail.com> (http://stumptownbear.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krambuhl/fe-component/issues"
+  },
+  "homepage": "https://github.com/krambuhl/fe-component",
+  "main": "dist/index.js",
+  "iron": {
+    "dir": "templates",
+    "exports": "iron.js"
+  },
+  "eyeglass": {
+    "sassDir": "css",
+    "exports": "eyeglass.js"
+  },
+  "devDependencies": {
+    "eyeglass": "^0.8.3",
+    "tape": "~4"
+  }
+}

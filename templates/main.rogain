@@ -1,0 +1,13 @@
+<div class="card">
+  <header class="card-header">
+    <h3>{@attrs.title}</h3>
+  </header>
+
+  <Children />
+
+  <If data={@attrs.href} defined>
+    <footer class="card-footer">
+      <a href={@attrs.href}>Read More</a>
+    </footer>
+  </If>
+</div>
